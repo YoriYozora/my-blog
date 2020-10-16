@@ -11,3 +11,22 @@ p {
 color: teal;
 text-align: right;
 }
+a {
+text-decoration: none;
+}
+#firstp {
+line-height: 10;
+color: red;
+}
+#secondp {
+color: blue;
+}
+.blue {
+color: palevioletred
+}
+.red {
+color: indigo
+}
+p{
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
