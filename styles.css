@@ -1,32 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-background-color: powderblue;
-}
-h1 {
-color: aliceblue;
-text-align: center;
-}
-p {
-color: teal;
-text-align: right;
-}
-a {
-text-decoration: none;
-}
-#firstp {
-line-height: 10;
-color: red;
-}
-#secondp {
-color: blue;
-}
-.blue {
-color: palevioletred
-}
-.red {
-color: indigo
-}
-p{
-font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
-}
+body{
+    box-sizing:content-box;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    header{
+    background-color: pink;
+    padding: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    nav{
+    background-color: violet;
+    padding: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    article{
+    background-color: rgb(190, 250, 190);
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    footer{
+    background-color: paleturquoise;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    a{
+    padding: 10px;
+    }
+    a:hover {
+    color: white;
+    background-color: rgb(239, 250, 140);
+    padding: 10px;
+    }
